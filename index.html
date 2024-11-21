@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <main>
+        <form id="imageForm">
+            <input type="text" id="imageUrl" placeholder="Enter image URL">
+            <button type="submit">Add Image</button>
+        </form>
+
+        <input type="text" id="keyword" placeholder="Search for images...">
+        <button id="fetchImages">Fetch Images</button>
+
+        <div id="gallery"></div>
+
+        <!-- Carousel for viewing images in larger size -->
+        <div id="carousel" style="display:none;">
+            <img id="carouselImage" src="" alt="Carousel Image">
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
