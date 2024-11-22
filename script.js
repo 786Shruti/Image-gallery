@@ -12,7 +12,7 @@ let carouselImages = [];
 
 async function getApiKey() {
     try {
-        const response = await fetch('http://localhost/My_project/Image%20Gallery/getApiKey.php');
+        const response = await fetch('http://ec2-13-232-129-20.ap-south-1.compute.amazonaws.com/getApiKey.php');
         
         // Check if the response is OK (200 status)
         if (!response.ok) {
