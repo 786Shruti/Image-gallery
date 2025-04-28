@@ -28,3 +28,6 @@ To get a local copy of the project up and running, follow these steps.
 
 - A modern web browser
 - Code editor (e.g., VS Code)
+
+##Video demo on:
+https://www.linkedin.com/posts/786shruti-pol_webdevelopment-responsivedesign-javascript-activity-7263937316174356480-hGgD?utm_source=share&utm_medium=member_android&rcm=ACoAAEpSX2IBf1-wBx0PX_cz8pRMWzwaQXifhAY
